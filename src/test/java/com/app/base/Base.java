@@ -11,6 +11,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
 public class Base {
+	
+	//git changes
 
 		public static WebDriver driver = null;
 		public static Properties prop = new Properties();
