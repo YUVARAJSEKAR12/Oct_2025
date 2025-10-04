@@ -108,6 +108,10 @@ public class Base {
 				e.printStackTrace();
 			}
 		}
+		
+		public static void test2() {
+			
+		}
 }
 	
 
