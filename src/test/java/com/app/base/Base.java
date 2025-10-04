@@ -82,6 +82,11 @@ public class Base {
 				e.printStackTrace();
 			}
 		}
+		public static void test1(){
+			System.out.println("test");
+
+		}
+		
 		public static void prop_write() {
 			try {
 				FileReader read = new FileReader(new File(
@@ -103,7 +108,8 @@ public class Base {
 				e.printStackTrace();
 			}
 		}
-	}
+}
+	
 
 	
 
