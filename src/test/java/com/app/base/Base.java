@@ -13,6 +13,7 @@ import org.openqa.selenium.support.ui.Select;
 public class Base {
 	
 	//git changes
+	//Git COnflict
 
 		public static WebDriver driver = null;
 		public static Properties prop = new Properties();
