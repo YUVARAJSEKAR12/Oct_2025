@@ -82,6 +82,8 @@ public class Base {
 				e.printStackTrace();
 			}
 		}
+	public static void test1(){
+		System.out.println("test");
 	}
 
 
