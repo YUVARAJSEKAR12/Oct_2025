@@ -82,7 +82,32 @@ public class Base {
 				e.printStackTrace();
 			}
 		}
+		public static void prop_write() {
+			try {
+				FileReader read = new FileReader(new File(
+						"C:\\Users\\mkpan\\eclipse-workspace\\sand\\Cucumber_Task\\src\\test\\resources\\TestData\\config.properties"));
+
+				prop.load(read);
+				String url = prop.getProperty("url");
+				//System.out.println(url);
+				String username = prop.getProperty("username");
+				//System.out.println(username);
+				String password = prop.getProperty("password");
+				//System.out.println(password);
+
+			} catch (FileNotFoundException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
 	}
+
+	
+
+
 
 
 
